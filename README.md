@@ -1,1 +1,1 @@
-#USRC Drone Racing Competition 2020
+# USRC Drone Racing Competition 2020
