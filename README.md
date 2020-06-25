@@ -1,3 +1,3 @@
 # USRC Drone Racing Competition 2020
 
-Group 4's repo for Self Driving Car
+This is a repo for Group 4's submission in the USRC Drone Racing Competition for 2020
