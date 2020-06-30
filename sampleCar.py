@@ -1,3 +1,11 @@
+import simulatorInterface
+import cv2
+import numpy as np
+import math
+import time
+
+
+
 def controller(image):
     #cv2.imshow("car view",image)
     #cv2.waitKey(1)
@@ -41,13 +49,23 @@ def controller(image):
 
     z = math.sqrt(((240 - h)**2) + ((320 - y)**2))
     print(z)
-
-    if z <= 200:
-        controlCommand["steer"]= 5
-        controlCommand["speed"]=1000
-    else:
+    #if z > 300:
+    if z > 300:
         controlCommand["steer"]= 100
-        controlCommand["speed"]=1000
+        controlCommand["speed"]= 1000
+    #if z <= 300:
+    if z <= 300:
+        controlCommand["steer"]= -50
+        controlCommand["speed"]= 1000
+
+
+
+    #if z <= 200:
+    #    controlCommand["steer"]= 5
+    #    controlCommand["speed"]=1000
+    #else:
+    #    controlCommand["steer"]= 100
+    #    controlCommand["speed"]=1000
 
 
     #else:
