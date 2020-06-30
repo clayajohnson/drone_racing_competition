@@ -8,7 +8,7 @@ This implementation uses Canny edge detection to first detect the yellow and blu
 
 ## Usage
 
-The file `cannyCar.py` is intended to be copied into the root folder of the [USRC simulator repo](https://github.com/usydroboticsclub/DRCSimulator) and run in the same fashion as `sampleCar.py` from the terminal. The utils folder just contains bits and pieces that were useful during the development of the final script, nothing in there is necessary for running cannyCar.py 
+The file `cannyCar.py` is intended to be copied into the root folder of the [USRC simulator repo](https://github.com/usydroboticsclub/DRCSimulator) and run in the same fashion as `sampleCar.py` from the terminal. The utils folder just contains bits and pieces that were useful during the development of the final script, nothing in there is necessary for running `cannyCar.py` 
 
 
 ## Future Work
