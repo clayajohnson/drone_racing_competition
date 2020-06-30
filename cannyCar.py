@@ -92,7 +92,7 @@ def controller(image):
     # cv2.waitKey(1)
     # steer according to heading
     controlCommand={}
-    controlCommand["speed"]=3500
+    controlCommand["speed"]=2500
     controlCommand["steer"]=heading
     return controlCommand
 
